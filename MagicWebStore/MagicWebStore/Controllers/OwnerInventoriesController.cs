@@ -26,6 +26,7 @@ namespace MagicWebStore.Controllers
         //}
 
             //Code from WEEK 7 TUTORIAL
+            //[http://localhost:55434/?productName=banggun]
         // Auto-parsed variables coming in from the request - there is a form on the page to send this data.
         public async Task<IActionResult> Index(string productName)
         {
