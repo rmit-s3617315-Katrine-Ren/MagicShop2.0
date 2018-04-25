@@ -10,6 +10,6 @@ namespace MagicWebStore.Models
         public int StoreID { get; set; }
         public string Name { get; set; }
 
-        public ICollection<StoreInventory> StoreInventory { get; } = new List<StoreInventory>();
+        //public ICollection<StoreInventory> StoreInventory { get; } = new List<StoreInventory>();
     }
 }
