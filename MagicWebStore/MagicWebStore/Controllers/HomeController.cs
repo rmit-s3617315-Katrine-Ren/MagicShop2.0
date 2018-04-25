@@ -10,7 +10,7 @@ namespace MagicWebStore.Controllers
 {
     public class HomeController : Controller
     {
-        //test
+        //test master
         public IActionResult Index()
         {
             return View();
